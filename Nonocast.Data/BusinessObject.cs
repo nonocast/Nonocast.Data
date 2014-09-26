@@ -11,7 +11,7 @@ using System.Windows;
 
 namespace Nonocast.Data {
 	[JsonObject(MemberSerialization.OptIn)]
-	public class BusinessObject : INotifyPropertyChanged {
+	public class BusinessObject : DependencyObject, INotifyPropertyChanged {
 		[JsonProperty]
 		public Guid Id { get; set; }
 
