@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Nonocast.Data</id>
+		<version>1.1.2</version>
+		<title>Nonocast.Data</title>
+		<authors>nonocast</authors>
+		<owners>nonocast</owners>
+		<licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+		<projectUrl>https://github.com/nonocast/Nonocast.Data/</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A free, open source developer focused object persistence for small and medium software.</description>
+		<releaseNotes>Update Dependencies</releaseNotes>
+		<copyright>Copyright 2014</copyright>
+		<tags>Data Persist SQLite</tags>
+		<dependencies>
+			<dependency id="Newtonsoft.Json" version="6.0.5" />
+			<dependency id="System.Data.SQLite.Core" version="1.0.94.0" />
+		</dependencies>
+	</metadata>
+</package>

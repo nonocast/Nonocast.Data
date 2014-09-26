@@ -1,0 +1,3 @@
+cd ./dist
+nuget pack
+nuget push Nonocast.Data.x.x.x.nupkg
